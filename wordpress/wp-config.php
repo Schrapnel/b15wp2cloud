@@ -21,10 +21,10 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'wordpress1' );
+define( 'DB_NAME', 'wordpress' );
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'admin1' );
+define( 'DB_USER', 'admin' );
 
 /** Mot de passe de la base de données MySQL. */
 define( 'DB_PASSWORD', 'root' );
@@ -51,14 +51,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'L9<ci&4/$?q~Pp$vX0|Db+JtS1$`U+HXl-Uw>g)So/T[EtBD=w.{l.fycc3bF?N-' );
-define( 'SECURE_AUTH_KEY',  '94t:r<59L3pao7o(lEv/9WRH0ht6EvrA8nEq9JF0ne5[M!AZN>PP#T4FNBvQNB=o' );
-define( 'LOGGED_IN_KEY',    'd%u5aE>{P(;dfQ=~I$S?GX8i$YJWf8IeVS0|}(kPdbbw9]jJ~*zb<!Iy+GMKkWzL' );
-define( 'NONCE_KEY',        '.-R}l @QgE43}1 8%%7Yf7jm0l,U+XCh8:4sZO$:H>n`gL%E>&cGD964M<b>DJ<!' );
-define( 'AUTH_SALT',        '_8l*Rpc*v}HGS|^AeVV[T;sn1Zr#~Gi> x[i6EKQn$zZKh~hlq(>!19R@aJd/Bi3' );
-define( 'SECURE_AUTH_SALT', '^.rV8}|4h,M.sC@55RkX.NS.rFB!; Aod4Ui*OlzC@*Ot}z&}syWhaP)0I6x<@4Z' );
-define( 'LOGGED_IN_SALT',   'f]PhIfx,Z==~j:/3uPp,Yp[Yh;.auYVGw>{*ib?Tb(Uagt=)G%-a6[1%[R-D#<l}' );
-define( 'NONCE_SALT',       '+g<1e gd?M6o:5t;tgljC_vQj#f|6_c0;4Ih5pnzQdAv&iW2kfLg6JDVTtTO,+B8' );
+define( 'AUTH_KEY',         'u<kGTn,$JqpC8g^SO095.o0QI^jSm1+Zc<JGkY]Cl7}JBksKBr_20J{{@r%+%n%q' );
+define( 'SECURE_AUTH_KEY',  '(P]qk5eR D_*||K>G|8*U6C$E3eBS]Po c|4N9gfMF9N(Svwm%7ZVm gF:3X)k9*' );
+define( 'LOGGED_IN_KEY',    'qf%kezVPZ6n<]=!z~#A/Y+;}d|!`*lH202owa]:cI44x<.Y8RB$AH2}RdhO<*hm~' );
+define( 'NONCE_KEY',        'coG#,v3/k|R{[t7nH(mE^8b<LiMSF[1?><6 _gyjU}UP4tw&D3nN$JL@PkC|x)z|' );
+define( 'AUTH_SALT',        '[IkKf}#e(xrUB_6&Jw.o928Kf8-~!bq;w 0@]Cd7V2S+5KEwD$I@&vG#3*T4P:)Q' );
+define( 'SECURE_AUTH_SALT', 'iZ6Pus4wrMeu|@c[XjWgdXMunP}#97P^aIZH`Mix<*6Hb_u+aXtbDF ND C{i`m7' );
+define( 'LOGGED_IN_SALT',   '<J<WK@+e]{%{5}~a&Px[.0z1_9g#)*}b9}Z5O:@:*L>=?U~K~d%cnL4)dV2J1G?z' );
+define( 'NONCE_SALT',       '3;84/GUt_Sen!=?1oEjV@x0qmUe3]YYR#bE/`cS_Y[4l(7M$LK]D!z7rq9S^G]q}' );
 /**#@-*/
 
 /**
